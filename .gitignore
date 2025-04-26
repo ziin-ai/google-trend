@@ -1,0 +1,64 @@
+# Python 기본
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# 가상환경
+venv/
+.env
+.venv/
+env/
+ENV/
+
+# IDE 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.log
+*.pid
+*.db
+*.sqlite3
+.DS_Store
+
+# Docker-specific
+docker-compose.override.yml
+.env.docker
+
+# OS별 쓰레기 파일
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# pipenv/poetry 사용 시
+Pipfile.lock
+poetry.lock
+
+# VS Code devcontainer
+.devcontainer/
+
+# pytest 관련
+.cache/
+.pytest_cache/
+
+# coverage
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+
+# FastAPI 서버 인증 파일 같은 것
+cert.pem
+key.pem
+
